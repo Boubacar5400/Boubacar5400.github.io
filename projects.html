@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Personnel - Doctorant en Économie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header> 
+		<div class="logo"><img src="logo.jpg" alt="bienvenue" class="logo-img"> 
+		<h1 class="welcome-text">Welcome to my personal website</h1>
+		</div>
+	</header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Talks.html">Talks</a></li>
+                <li><a href="Teaching.html">Teaching</a></li>
+                <li><a href="projects.html">Academic projects</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="training.html">Other training</a></li>
+                <li><a href="skills.html">Software skills</a></li>
+            </ul>
+        </nav>
+    <button class="menu-toggle">
+    	<span> </span>
+    	<span> </span>
+    	<span> </span>
+    </button>
+<script type="text/javascript">
+	const toggle= document.querySelector('.menu-toggle');
+	const navLinks = document.querySelector('.nav-links');
+
+	toggle.addEventListener('click', () =>{
+		navLinks.classList.toggle('active');
+		toggle.classList.toggle('open');
+	})
+</script>
+    
+ <!--
+<section class="pdf-section">
+    <p>Téléchargez mon document pour plus d'informations :</p>
+    <a href="présentation de mon site.pdf" target="_blank" class="button">
+      model  <img src="pdf-icon.png" alt="PDF Icon" class="pdf-icon"> 
+    </a>
+</section>
+-->
+<section class="sec1">
+<h1 class="pr">All the academic projects I have realized</h1>
+            <ul class="objetif">
+                <li> An analytically solvable core‑periphery model with non‑constant transport costs; Université de Pau et des Pays de l’Adour France, 2024</li>
+                <li>Modélisation des effets de l’incertitude de la politique climatique sur l’industrie du pétrole; Université de Pau et des Pays de l’Adour France, 2024</li>
+                <li> Prédictibilité de l’indice boursier S&P 500 : Une analyse comparative des modèles de machine learning; Université de Pau et des Pays de l’Adour France, 2024</li>
+                <li> Les effets de l’intervention de l’Etat dans le modèle AK avec Mathematica; Université de Pau et des Pays de l’Adour France, 2024</li>
+                <li>Analyse de la relation entre Mortalité maternelle et le PIB par habitant : une approche spatiale sur les pays Africains; Université de Pau et des Pays de l’Adour France, 2024</li>
+                <li>Réseau neurone LSTM et lissage exponentiel de Holt‑winters pour la prévision des séries temporelles : une application
+à l’indice CAC immobilier; Université de Pau et des Pays de l’Adour France, 2023</li>
+                <li> Analyse univariée et bivariée : une application à la base de donnée d’enquête sur les étudiants de L1 économie; Université de Pau et des Pays de l’Adour France, 2023</li>
+                <li>Analyse du 𝛽−convergence, 𝜎−convergence et la matrice de transition des pays de la CEDEAO; Université de Pau et des Pays de l’Adour France, 2023</li>
+                <li>Analyse des déterminants du salaire: une approche statistique; Université de Pau et des Pays de l’Adour France, 2023</li>
+                <li> Analyse multivariée de la base de données d’enquêtes du groupe d’étude et de réflexion inter‑régional de 1990 en
+France; Université de Pau et des Pays de l’Adour France, 2023</li>
+                <li> Relation entre les accidents de la route et les taxes sur la bière le cas des Etats Unis: une approche en panel; Université de Pau et des Pays de l’Adour France, 2023</li>
+                <li>Relation entre déficit public et taux d’intérêt long terme : le cas du portugal; Université de Pau et des Pays de l’Adour, 2023</li>
+                <li>Les effets des chocs externes sur l’économie du Sénégal : une analyse en équilibre générale dynamique et stochastique; Université de Bourgogne, 2022</li>
+                <li>L’impact de l’inflation sur la croissance économique des pays de l’OCDE : une approche en données de panel; Université de Bourgogne, 2021</li>
+                <li>L’utilisation du temps libre par les chômeurs, temps de recherche d’emploi, temps de travail domestique et temps de
+loisir : modèle logistique multinomial ; Université de Bourgogne, 2021</li>
+                <li>Modélisation et prévision des séries temporelles : application à la série de l’inflation au Sénégal ; Université Assane Seck de Ziguinchor, 2020 (<a href="https://rivieresdusud.uasz.sn/xmlui/handle/123456789/1054" class="doc1">Document</a>)</li>
+                <li>Régression linéaire multiple : Etude du PIB Sénégalais ; Université Assane Seck de Ziguinchor, 2017</li>
+            </ul> 
+</section>
+    <footer>
+        <p>&copy; 2025 Boubacar KANDE. Tous droits réservés.</p>
+    </footer>
+ 
+</body>
+</html>
