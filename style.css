@@ -123,8 +123,8 @@ header {
 }
 
 /*    */
-.pdf-section .pdf-icon {
-    width: 10px; /* Taille de l'icône */
+.pdf-icon {
+    width: 15px; /* Taille de l'icône */
     height: auto;
     margin-right: 8px; /* Espacement entre l'icône et le texte */
     vertical-align: middle; /* Aligne l'icône au centre du texte */
@@ -196,30 +196,36 @@ footer {
 	margin-right: 200px;
 }
 .graph1{
+	position: relative;
 	height: 300px;
-	width: 500px;
+	width: 300px;
 }
 .graph2{
+	position: relative;
 	height: 300px ;
-	width: 500px;
+	width: 300px;
 }
 .graph3{
+	position: relative;
 	height: 300px ;
-	width: 500px;
+	width: 300px;
 }
 
 .graph4{
+	position: relative;
 	height: 300px ;
-	width: 500px;
+	width: 300px;
 }
 
 .graph5{
+	position: relative;
 	height: 300px ;
-	width: 500px;
+	width: 300px;
 }
 
 .graph6{
+	position: relative;
 	height: 300px ;
-	width: 500px;
+	width: 300px;
 }
 
